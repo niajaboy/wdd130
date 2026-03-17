@@ -23,7 +23,7 @@ h1{
     margin: 10px;
     text-align: center;
 }
-img{
+main img{
     width: 100%;
     height: auto;
     box-shadow: 0 0 30px #333;
@@ -35,8 +35,9 @@ section{
     background-color: #abe;
     font-size: .5rem;
 }
+
 section p{
-    margin: 10px;
+    margin: 0px;
 }
 ul{
     margin: 10px 20px;
