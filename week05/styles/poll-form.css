@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f8f8;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+header {
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+h1 {
+    color: navy;
+    font-size: 2.2rem;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #eee;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: grid;
+    gap: 1.5rem;
+}
+
+fieldset {
+    display: grid;
+    gap: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 1.2rem;
+    background: white;
+}
+
+legend {
+    color: navy;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 0 12px;
+}
+
+
+.form-item {
+    display: grid;
+    align-items: center;
+    gap: 8px;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+    font-weight: 500;
+}
+
+input, select, textarea {
+    padding: 0.65rem;
+    font-size: 1.1rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    justify-self: start;
+    vertical-align: bottom;
+}
+
+
+button {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    font-size: 1.25rem;
+    border-radius: 6px;
+    cursor: pointer;
+    justify-self: center;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+
+footer {
+    text-align: center;
+    margin: 2rem auto;
+    width: 650px;
+    font-size: 0.95rem;
+    color: #555;
+    border-top: 1px solid #ccc;
+    padding-top: 1rem;
+}
